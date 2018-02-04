@@ -1,0 +1,95 @@
+/* @import "../assets/bootstrap/variables-blue"; */
+
+body {
+  background: #242424;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	text-align: center;
+	color: #fff;
+	padding: 3em;
+	.col-lg-4 {
+		padding :0;
+	}
+}
+	a {
+		cursor: pointer;
+	}
+  h1 {
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #fee202;
+      /* font-size: 20px; */
+      /* font-weight: 300; */
+    font-family: 'Josefin Slab', sans-serif;
+    margin-top: 150px;
+
+    margin-bottom: 50x;
+    /* } */
+  }
+
+  h2 {
+    font-size: 20px;
+    font-family: 'Josefin Slab', sans-serif;
+  }
+	.input-lg {
+	    height: 46px;
+	    padding: 10px 16px;
+	    font-size: 18px !important;
+	    line-height: 1.3333333;
+	    border-radius: 0;
+	}
+	.input-underline {
+	    background: 0 0;
+	    border: none;
+	    box-shadow: none;
+	    border-bottom: 2px solid #3a486f;
+	    color: #ffeac9;
+	    border-radius: 0;
+      font-size:24px;
+      font-family: 'Josefin Slab', sans-serif;
+	}
+	.input-underline:focus {
+	    border-bottom: 2px solid #3a486f;
+	    box-shadow: none;
+	}
+	.rounded-btn{
+		-webkit-border-radius: 10px;
+		    	border-radius: 10px;
+		color: #3a486f;
+		background: #242424;
+		border: 0px solid rgba(255,255,255,0.8);
+		font-size: 20px;
+    font-family: 'Josefin Slab';
+	    line-height: 22px;
+	    padding: 0 5px;
+	}
+	.rounded-btn:hover,.rounded-btn:focus,.rounded-btn:active,.rounded-btn:visited{
+		color: #fee202;
+		border: 0px solid rgba(255,255,255,1);
+		outline: none;
+	}
+
+
+	.form-group {
+		padding: 8px 0;
+		input::-webkit-input-placeholder {
+		color: rgba(255,255,255,0.6) !important;
+		}
+
+		input:-moz-placeholder {
+		color: rgba(255,255,255,0.6) !important;
+		}
+
+		input:-ms-input-placeholder {
+		color: rgba(255,255,255,0.6) !important;
+		}
+	}
+	.form-content {
+		padding: 40px 0;
+	}
