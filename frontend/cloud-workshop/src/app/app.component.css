@@ -48,7 +48,7 @@ body {
 	    background: 0 0;
 	    border: none;
 	    box-shadow: none;
-	    border-bottom: 2px solid #3a486f;
+	    border-bottom: 2px solid #FFF;
 	    color: #ffeac9;
 	    border-radius: 0;
       font-size:24px;
@@ -61,7 +61,7 @@ body {
 	.rounded-btn{
 		-webkit-border-radius: 10px;
 		    	border-radius: 10px;
-		color: #3a486f;
+		color: #FFF;
 		background: #242424;
 		border: 0px solid rgba(255,255,255,0.8);
 		font-size: 20px;
