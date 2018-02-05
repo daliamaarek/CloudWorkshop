@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dalia Mostafa",
@@ -13,5 +14,9 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "4.8.6",
+    "npm": "2.7.4"
   }
 }

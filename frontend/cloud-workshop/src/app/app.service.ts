@@ -13,7 +13,7 @@ export class AppService {
 
   sendRequest(req) : any{
     console.log(JSON.stringify(req));
-      return this.http.post('http://localhost:3000', {message: req})
+      return this.http.post('https://alfred-backend.cfapps.io', {message: req})
       .toPromise()
       .then(data => {
         return data.json();
@@ -23,7 +23,7 @@ export class AppService {
 
   getRequest(){
     console.log("get request!")
-    return this.http.get('http://localhost:3000')
+    return this.http.get('https://alfred-backend.cfapps.io')
     .toPromise()
     .then(data => {
       return data.json()});
