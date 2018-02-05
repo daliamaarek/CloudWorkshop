@@ -14,9 +14,11 @@ export class AppComponent {
 
   sendRequest(value): void
   {
-    let x = this.appSvc.sendRequest(value);
-    console.log(x);
-    this.AlfredResponse = x;
+    if (value) {
+      let x = this.appSvc.sendRequest(value);
+      console.log(x);
+      this.AlfredResponse = x;
+    }
   }
 
 };
