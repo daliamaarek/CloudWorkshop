@@ -4,9 +4,10 @@ var cors = require('cors')
 const serverApp = express()
 var app = apiai("8e8734539f7a4f5b9aca18477baab3ea");
 var bodyParser = require('body-parser');
+const port = process.env.VCAP_APP_PORT || 3000;
+
 serverApp.use(bodyParser.json()); // support json encoded bodies
 serverApp.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
-
 
 serverApp.use(cors());
 
@@ -57,8 +58,8 @@ serverApp.post('/', function (req, res) {
 })
 
 
-serverApp.listen(3000, () => {
-  console.log('App listening on port 3000!');
+serverApp.listen(port, () => {
+  console.log('App listening on port ' +port);
 })
 
 module.exports = {serverApp}

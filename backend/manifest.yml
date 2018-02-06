@@ -1,0 +1,7 @@
+---
+applications:
+- name: alfred-backend
+  command: node index.js
+  path: .
+  buildpack: nodejs_buildpack
+  instances: 1
